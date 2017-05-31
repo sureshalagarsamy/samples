@@ -1,0 +1,12 @@
+.grid {
+  width: 500px;
+  height: 150px;
+}
+.ui-grid-cell-contents
+{
+   color: green;
+}
+.ui-grid-cell-contents
+{
+   color: red;
+}

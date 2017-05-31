@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="app">
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-touch.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-grid/3.2.9/ui-grid.js"></script>
+		<script src="app.js"></script>
+		<link rel="stylesheet" href="styles/ui-grid.css" type="text/css">
+		<link rel="stylesheet" href="styles/main.css" type="text/css">
+	</head>
+	<body>
+		<div ng-controller="MainCtrl">
+			<div id="grid1" ui-grid="{ data: myData }" class="grid"></div>
+		</div>
+	</body>
+</html>
